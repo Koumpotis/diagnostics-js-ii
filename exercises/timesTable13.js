@@ -9,6 +9,12 @@
  *   13 times 4 is 52
  */
 function timesTable13(n) {
+let multiplier;
+for (let a=1; a<=n; a++){
+  let product = 13* a
+
+  console.log(`13 times ${a} is ${product}`);
+}
   // This is your job. :)
 
   // Use console.log to print out statements like "13 times 5 is 65"
