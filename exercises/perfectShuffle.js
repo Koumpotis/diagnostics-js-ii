@@ -8,7 +8,13 @@
  */
 
 function perfectShuffle(array) {
-  // This is your job. :)
+let half = array.length/2
+let perfectlyShufledArray=[];
+for (a = 0; a <half; a++){
+perfectlyShufledArray.push(array[a]);
+perfectlyShufledArray.push(array[a+half]);
+}
+return perfectlyShufledArray;
 }
 
 let sanityCheck = require('./sanityCheck');
